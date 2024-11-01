@@ -1,0 +1,38 @@
+:root{
+    --primary-color: #D1C047;
+    --secundary-color: #4D4526;
+    --accent-color: #E1E0D2;
+}
+
+@media (min-width: 700px) {
+
+    nav {
+        top: 0;
+    }
+    #nav {
+        display: flex;
+        
+    }
+
+    #nav li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .container img {
+        width: 50vw;
+        height: 100%;
+    }
+}
+
